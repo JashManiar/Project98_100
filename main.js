@@ -12,7 +12,6 @@ function start()
  
  {console.log(event);
 var Content = event.results[0][0].transcript;
-document.getElementById("textbox").innerHTML= Content;
 console.log(Content);
 if(Content =="selfie")
 {console.log("taking selfie---");
